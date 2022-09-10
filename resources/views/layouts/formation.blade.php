@@ -8,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/formation.css">
+  
   <title>formamation</title>
 </head>
 
@@ -64,23 +65,36 @@
               </div>
           </div>
       </nav>
-      <!-- <div class="block-image-accueil">
-          <img src="/assets/images/2-blackstudent.jpeg" class="imag-invisible img-fluid" alt="Etudiants">
-          <div class="text-accueil">
-              <div class="text">
-                  <p class="text-light text-center">CENTRE DE FORMATION QUI REPOND</p>
-                  <p class="text-light text-center">CENTRE DE FORMATION QUI REPOND</p>
+    <!-- acceuil -->
+   
 
-                  <p class="text-light text-center"> </p>
-              </div>
-          </div>
+    <!-- end-acceuil -->
+
+</div>
+
+
+<div>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <img src="./assets/images/photo_salles_informatique_1.jpeg" class="d-block w-100 " height="500" alt="...">
       </div>
-  </div> -->
-  <!-- accueil -->
-  
-  <!-- end-accueil -->
-  <!--end navbar -->
-
+      <div class="carousel-item">
+        <img src="./assets/images/image-etudiant.webp" class="d-block w-100 " height="500" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/images/photo_salles_informatique_1.jpeg" class="d-block w-100 " height="500" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 </div>
 <!-- end-header -->
 

@@ -101,11 +101,13 @@ ul li a {
 }
 
 @media all and (max-width: 768px) {
+    
+    
     .form-control {
         width: 300px;
     }
     .formulaire-contact {
-        margin-top: 61%;
+        margin-top: 6%;
     }
     .contact p {
         font-size: 15px;

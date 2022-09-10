@@ -1,6 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\renseignementController;
+
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -33,11 +38,22 @@ Route::get('/layouts', function () {
     return view('layouts.contact');
 })->name('contact');
 
+
+// insertion contact data on database 
+Route::post('renseignement', [renseignementController::class, 'renseignement']);
+
+// // contact route for validation
+Route::post('/layouts', function () {
+    return view('layouts.contact');
+})->name('contact');
+
 // // contact route
 Route::get('/formulaire', function () {
     return view('layouts.formulaire');
 })->name('formulaire');
 
+
+// Route::post('renseignement', [PostController::class, 'getData']);
 /*------------------------------------------
 --------------------------------------------
 All Normal Users Routes List

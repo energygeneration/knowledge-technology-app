@@ -11,6 +11,7 @@
     display: flex;
 }
 
+
 .enveloppe {
     width: 33px;
     height: 33px;
@@ -250,8 +251,12 @@ table{
     .imag-invisible {
         visibility: hidden;
     }
-    .formation-line1 { 
-        /* margin-top: 70%; */
+    .carousel{
+        z-index: -1;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        visibility: collapse;
     }
     .knowledgetchnology {
         flex-wrap: wrap;

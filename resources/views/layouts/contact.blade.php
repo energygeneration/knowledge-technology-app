@@ -61,17 +61,7 @@
                 </div>
             </div>
         </nav>
-        <!-- <div class="block-image-accueil">
-            <img src="/assets/images/2-blackstudent.jpeg" class="imag-invisible img-fluid" alt="Etudiants">
-            <div class="text-accueil">
-                <div class="text">
-                    <p class="text-light text-center">CENTRE DE FORMATION QUI REPOND</p>
-                    <p class="text-light text-center">CENTRE DE FORMATION QUI REPOND</p>
-
-                    <p class="text-light text-center"> </p>
-                </div>
-            </div>
-        </div> -->
+        
     </div>
     <!-- accueil -->
     <div class="accueil">
@@ -99,32 +89,44 @@
         </h3>
        <div class="champ-formulaire d-flex">
             <div class="mt-4">
-                <form method="post">
+
+                
+                <!-- @if($errors->any())
+                    @foreach($errors->all() as $err)
+                    <li>{{$err}}</li>
+                    @endforeach
+                @endif -->
+                <form action="renseignement" method="post">
                     {{ csrf_field()}}
 
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Nom :</label>
-                      <input type="text" class="form-control" name="nom" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                      <input type="text" class="form-control" name="nom" id="exampleInputEmail1" aria-describedby="emailHelp" >
+                      <span class="text-danger">@error('nom'){{$message}}@enderror</span>
                     </div>
 
                     <div class="mb-3">
                       <label for="exampleInputPassword1" class="form-label">Prénom :</label>
-                      <input type="text" class="form-control" name="prenom" id="exampleInputPassword1" required>
+                      <input type="text" class="form-control" name="prenom" id="exampleInputPassword1" >
+                      <span class="text-danger">@error('prenom'){{$message}}@enderror</span>
                     </div>
 
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">E-mail :</label>
-                        <input type="email" class="form-control" name="email" id="exampleInputPassword1" required>
+                        <input type="email" class="form-control" name="email" id="exampleInputPassword1" >
+                        <span class="text-danger">@error('email'){{$message}}@enderror</span>
                     </div>
 
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Télephone :</label>
-                        <input type="number" class="form-control" name="numeroTel" id="exampleInputPassword1" required>
+                        <input type="number" class="form-control" name="numeroTel" id="exampleInputPassword1" >
+                        <span class="text-danger">@error('numeroTel'){{$message}}@enderror</span>
                     </div>
                     
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Votre message :</label>
-                        <textarea type="text" id="" class="form-control" name="contenu_message" cols=""  rows="8" required></textarea>
+                        <textarea type="text" id="" class="form-control" name="contenu_message" cols=""  rows="8" ></textarea>
+                        <span class="text-danger">@error('contenu_message'){{$message}}@enderror</span>
                     </div>
                     
                     <button type="submit" class="btn btn-primary">Envoyer</button>

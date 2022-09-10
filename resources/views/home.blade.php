@@ -12,7 +12,7 @@
                     @if(auth()->user()->is_admin == 1)
                     <a href="{{url('admin/routes')}}"><p class="text-light">Admin</p></a>
                     @else
-                    <div class=”panel-heading”><p class="text-success">Vous vous êtes connectez succès !</p></div>
+                    <div class=”panel-heading”><p class="text-success">Vous vous êtes connectez avec succès !</p></div>
                     @endif
                 </div>
             </div>
