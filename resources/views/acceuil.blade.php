@@ -103,10 +103,7 @@
                 <div class="propos-de-nous">
                     <h3 class="p-3">QUELQUES MOTS SUR NOUS</h3>
                     <p class="p-2">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                        beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                        odit aut fugit, sed quia consequuntur magni dolores eos qui
+                        KNOWLEDGE TECHNOLOGY est centre de formation professionnelle, qui offre des formations dans les métiers prévoilleurs d'emplois.
                     </p>
                 </div>
 
@@ -203,7 +200,7 @@
                     <form action="/newsletter" method="post">
                         {{ csrf_field() }}
                         <input type="email" class="inputmail-buttont" name="email" placeholder="Votre adresse e-mail" required> <br class="go-in-line">
-                        <input type="checkbox" class="checkbox " name="checkbox" required> <span class="text-light"> J'accepte que knowledge tchnology m'envoie des mails</span> <br>
+                        <input type="checkbox" class="checkbox " name="checkbox"> <span class="text-light" required> J'accepte que knowledge tchnology m'envoie des mails</span> <br>
                         <button type="submit" class="inputmail-buttone text-light">VALIDER</button>
                     </form>
                </div>

@@ -2,7 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\renseignementController;
+use App\Http\Controllers\FormulaireInscriptionController;
 
 
 
@@ -41,6 +43,12 @@ Route::get('/layouts', function () {
 
 // insertion contact data on database 
 Route::post('renseignement', [renseignementController::class, 'renseignement']);
+
+// insertion newsletter data on database 
+Route::post('newsletter', [NewsletterController::class, 'newsletter']);
+
+// insertion fotmulaire data on database 
+Route::post('/FormulaireInscription', [FormulaireInscriptionController::class, 'FormulaireInscription']);
 
 // // contact route for validation
 Route::post('/layouts', function () {

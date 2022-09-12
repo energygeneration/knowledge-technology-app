@@ -91,7 +91,7 @@
     <h5 class="info text-center text-#0658D3">Informations personnelle</h5>
         <div>
            
-            <form action="/store" method="post" class="form-formulaire" enctype="multipart/form-data">
+            <form action="/FormulaireInscription" method="post" class="form-formulaire" enctype="multipart/form-data">
                 {{ csrf_field()}}
                 <div class="container">
                     <div class="mb-3">
@@ -186,7 +186,7 @@
                         <form action="/newsletter" method="post">
                         {{ csrf_field() }}
                         <input type="email" class="inputmail-buttont" name="email" placeholder="Votre adresse e-mail" required> <br class="go-in-line">
-                        <input type="checkbox" class="checkbox " name="checkbox" required> <span class="text-light"> J'accepte que knowledge tchnology m'envoie des mails</span> <br>
+                        <input type="checkbox" class="checkbox " name="checkbox"> <span class="text-light" required> J'accepte que knowledge tchnology m'envoie des mails</span> <br>
                         <button type="submit" class="inputmail-buttone text-light">VALIDER</button>
                     </form>
                    </div>

@@ -255,8 +255,8 @@
               
             <form action="/newsletter" method="post">
                     {{ csrf_field() }}
-                    <input type="email" class="inputmail-buttont" name="email" placeholder="Votre adresse e-mail" required> <br class="go-in-line">
-                    <input type="checkbox" class="checkbox " name="checkbox" required> <span class="text-light"> J'accepte que knowledge tchnology m'envoie des mails</span> <br>
+                    <input type="email" class="inputmail-buttont" name="email" placeholder="Votre adresse e-mail"> <br class="go-in-line">
+                    <input type="checkbox" class="checkbox " name="checkbox"> <span class="text-light"> J'accepte que knowledge tchnology m'envoie des mails</span> <br>
                     <button type="submit" class="inputmail-buttone text-light">VALIDER</button>
             </form>
               
