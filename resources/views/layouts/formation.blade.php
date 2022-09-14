@@ -18,16 +18,20 @@
  <div class="header">
   <!-- header-black -->
   <div class="header-black">
-      <a href="" class="mail-link">
-          <img src="./assets/images/nouvelle-enveloppe-de-courrier-electronique.png" class="enveloppe "
-              alt="enveloppe electronique">
-      </a>
-      <img src="./assets/images/whatsapp.png" class="enveloppe" alt="whatsapp">
-      <div class="">
-          <p class="header-black-contact">Contactez nous</p>
-      </div>
+            <a href="mailto:knowledgetchnology@gmail.com" class="mail-link">
+                <img src="./assets/images/nouvelle-enveloppe-de-courrier-electronique.png" class="enveloppe "
+                    alt="enveloppe electronique">
+            </a>
 
-  </div>
+            <a href="https://wa.me/0022891622497?text=Welcome%20to%20Knowledge%20Technology%20!">
+            <img src="./assets/images/whatsapp.png" class="enveloppe" alt="whatsapp">
+            </a>
+
+            <div class="">
+                <p class="header-black-contact">Contactez nous</p>
+            </div>
+
+        </div>
   <!-- end header-black -->
 
   <!-- navbar -->
@@ -74,6 +78,7 @@
 
 
 <div>
+  
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner ">
       <div class="carousel-item active">
@@ -85,6 +90,7 @@
       <div class="carousel-item">
         <img src="./assets/images/photo_salles_informatique_1.jpeg" class="d-block w-100 " height="500" alt="...">
       </div>
+      
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -94,6 +100,7 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+    
   </div>
 </div>
 <!-- end-header -->
@@ -188,7 +195,7 @@
     </tr>
 
     <tr>
-      <td class="text-center">
+      <td class="fisrt-column text-center">
         Maintenance Informatique</td>
       <td>Où travaille un technicien de maintenance en informatique ?
         Résultat de recherche d'images pour "les débouchés de la maintenance informatique"
@@ -198,14 +205,14 @@
     </tr>
 
     <tr>
-      <td class="text-center">Réseau et télecommunication</td>
+      <td class="fisrt-column  text-center">Réseau et télecommunication</td>
       <td>Les technicien en Réseaux et télécommunication peuvent exercer les métiers d'administrateur systèmes et
         réseaux, de responsable d'exploitation, d'architecte réseau et systèmes de communication et d'information, de
         techniciens en télécommunications, de responsable de ...</td>
     </tr>
 
     <tr>
-      <td class="text-center">Développement Web et Mobile & Web Design</td>
+      <td class="fisrt-column  text-center">Développement Web et Mobile & Web Design</td>
       <td>Missions du webdesigner:
         Il peut être amené dans le cadre de son poste à :
         -Établir la charte graphique et l’identité visuelle d’un site web.
@@ -215,12 +222,14 @@
     </tr>
 
     <tr>
-      <td class="text-center">Infographie et montage vidéo</td>
+      <td class="fisrt-column  text-center">Infographie et montage vidéo</td>
       <td>À l'aide d'un cahier des charges rédigé en amont, il crée des supports de communication composés de textes,
         d'images, d'animations ou de vidéos.</td>
     </tr>
 
   </table>
+
+  
 
   <!-- end-tableau-debouchés -->
   <!-- end-debouchés -->
@@ -283,32 +292,30 @@
             </div>
 
             <div class="col-3">
-                <p>Informations pratiques</p>
-                <p>
-                    contacter nous : <br>
-                    24h/24 et 7j/7
-                    Tel: 91 62 24 97 / 99 40 93 20
-                </p>
-            </div>
+                    <p>Informations pratiques</p>
+                    <p>
+                        Ecrivez nous : <br>
+                        knowledgetchnology@gmail.com <br>
+                        où dans le formulaire de contact
+                    </p>
+                </div>
 
-            <div class="col-3">
-                <p>Informations pratiques</p>
-                <p>
-                    contacter nous : <br>
-                    24h/24 et 7j/7
-                    Tel: 91 62 24 97 / 99 40 93 20
-                </p>
-            </div>
+                <div class="col-3">
+                    <p>Informations pratiques</p>
+                    <p>
+                        Où nous trouver  : <br>
+                        Lomé-Togo;<br> Adidogomé; <br> Rue Mélonkou.
+                    </p>
+                </div>
 
-            <div class="col-3">
-                <p>Informations pratiques</p>
-                <p>
-                    contacter nous : <br>
-                    24h/24 et 7j/7
-                    Tel: 91 62 24 97 / 99 40 93 20
-                </p>
-            </div>
-
+                <div class="col-3">
+                    <p>Informations pratiques</p>
+                    <p>
+                        contacter nous : <br>
+                        24h/24 et 7j/7 <br>
+                        Tel: 91 62 24 97 / 99 40 93 20
+                    </p>
+                </div>
         </div>
     </div>
 </div>

@@ -16,11 +16,15 @@
  <div class="header">
         <!-- header-black -->
         <div class="header-black">
-            <a href="" class="mail-link">
+            <a href="mailto:knowledgetchnology@gmail.com" class="mail-link">
                 <img src="./assets/images/nouvelle-enveloppe-de-courrier-electronique.png" class="enveloppe "
                     alt="enveloppe electronique">
             </a>
+
+            <a href="https://wa.me/0022891622497?text=Welcome%20to%20Knowledge%20Technology%20!">
             <img src="./assets/images/whatsapp.png" class="enveloppe" alt="whatsapp">
+            </a>
+
             <div class="">
                 <p class="header-black-contact">Contactez nous</p>
             </div>
@@ -212,32 +216,30 @@
                     </div>
       
                     <div class="col-3">
-                        <p>Informations pratiques</p>
-                        <p>
-                            contacter nous : <br>
-                            24h/24 et 7j/7
-                            Tel: 91 62 24 97 / 99 40 93 20
-                        </p>
-                    </div>
-      
-                    <div class="col-3">
-                        <p>Informations pratiques</p>
-                        <p>
-                            contacter nous : <br>
-                            24h/24 et 7j/7
-                            Tel: 91 62 24 97 / 99 40 93 20
-                        </p>
-                    </div>
-      
-                    <div class="col-3">
-                        <p>Informations pratiques</p>
-                        <p>
-                            contacter nous : <br>
-                            24h/24 et 7j/7
-                            Tel: 91 62 24 97 / 99 40 93 20
-                        </p>
-                    </div>
-      
+                    <p>Informations pratiques</p>
+                    <p>
+                        Ecrivez nous : <br>
+                        knowledgetchnology@gmail.com <br>
+                        où dans le formulaire de contact
+                    </p>
+                </div>
+
+                <div class="col-3">
+                    <p>Informations pratiques</p>
+                    <p>
+                        Où nous trouver  : <br>
+                        Lomé-Togo;<br> Adidogomé; <br> Rue Mélonkou.
+                    </p>
+                </div>
+
+                <div class="col-3">
+                    <p>Informations pratiques</p>
+                    <p>
+                        contacter nous : <br>
+                        24h/24 et 7j/7 <br>
+                        Tel: 91 62 24 97 / 99 40 93 20
+                    </p>
+                </div>
                 </div>
             </div>
         </div>

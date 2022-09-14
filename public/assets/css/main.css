@@ -320,5 +320,8 @@ ul li a {
     .text-accueil, .accueil {
         height: 21vh;
     }
+    .carousel{
+        padding: 0 !important;
+    }
 }
 

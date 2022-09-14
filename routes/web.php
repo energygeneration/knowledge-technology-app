@@ -40,6 +40,8 @@ Route::get('/layouts', function () {
     return view('layouts.contact');
 })->name('contact');
 
+// insertion contact data on database 
+Route::get('tousinscrits', [tousinscritsController::class, 'tousinscrits']);
 
 // insertion contact data on database 
 Route::post('renseignement', [renseignementController::class, 'renseignement']);

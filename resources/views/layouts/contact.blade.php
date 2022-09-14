@@ -13,16 +13,20 @@
 <div class="header">
     <!-- header-black -->
     <div class="header-black">
-        <a href="" class="mail-link">
-            <img src="./assets/images/nouvelle-enveloppe-de-courrier-electronique.png" class="enveloppe "
-                alt="enveloppe electronique">
-        </a>
-        <img src="./assets/images/whatsapp.png" class="enveloppe" alt="whatsapp">
-        <div class="">
-            <p class="header-black-contact">Contactez nous</p>
-        </div>
+            <a href="mailto:knowledgetchnology@gmail.com" class="mail-link">
+                <img src="./assets/images/nouvelle-enveloppe-de-courrier-electronique.png" class="enveloppe "
+                    alt="enveloppe electronique">
+            </a>
 
-    </div>
+            <a href="https://wa.me/0022891622497?text=Welcome%20to%20Knowledge%20Technology%20!">
+            <img src="./assets/images/whatsapp.png" class="enveloppe" alt="whatsapp">
+            </a>
+
+            <div class="">
+                <p class="header-black-contact">Contactez nous</p>
+            </div>
+
+        </div>
     <!-- end header-black -->
 
     <!-- navbar -->
@@ -64,7 +68,7 @@
         
     </div>
     <!-- accueil -->
-    <div class="accueil">
+    <div class="imag-invisible">
         <div class="text-accueil">
             <div class="text">
                 <p class="text-light text-center">CENTRE DE FORMATION QUI REPOND</p>
@@ -80,7 +84,7 @@
 
     <!-- formulaire-contact -->
     <div class="formulaire-contact container">
-        <h1 class="">Contact</h1>
+        <h1 class="mt-5">Contact</h1>
         <hr>
 
         <h3>
@@ -203,31 +207,30 @@
               </div>
 
               <div class="col-3">
-                  <p>Informations pratiques</p>
-                  <p>
-                      contacter nous : <br>
-                      24h/24 et 7j/7
-                      Tel: 91 62 24 97 / 99 40 93 20
-                  </p>
-              </div>
+                    <p>Informations pratiques</p>
+                    <p>
+                        Ecrivez nous : <br>
+                        knowledgetchnology@gmail.com <br>
+                        où dans le formulaire de contact
+                    </p>
+                </div>
 
-              <div class="col-3">
-                  <p>Informations pratiques</p>
-                  <p>
-                      contacter nous : <br>
-                      24h/24 et 7j/7
-                      Tel: 91 62 24 97 / 99 40 93 20
-                  </p>
-              </div>
+                <div class="col-3">
+                    <p>Informations pratiques</p>
+                    <p>
+                        Où nous trouver  : <br>
+                        Lomé-Togo;<br> Adidogomé; <br> Rue Mélonkou.
+                    </p>
+                </div>
 
-              <div class="col-3">
-                  <p>Informations pratiques</p>
-                  <p>
-                      contacter nous : <br>
-                      24h/24 et 7j/7
-                      Tel: 91 62 24 97 / 99 40 93 20
-                  </p>
-              </div>
+                <div class="col-3">
+                    <p>Informations pratiques</p>
+                    <p>
+                        contacter nous : <br>
+                        24h/24 et 7j/7 <br>
+                        Tel: 91 62 24 97 / 99 40 93 20
+                    </p>
+                </div>
 
           </div>
       </div>
