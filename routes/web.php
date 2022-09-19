@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Auth\AdminController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\renseignementController;
 use App\Http\Controllers\FormulaireInscriptionController;
@@ -62,8 +64,20 @@ Route::get('/formulaire', function () {
     return view('layouts.formulaire');
 })->name('formulaire');
 
+Route::get('/adminDashboard', function () {
+    return view('layouts.adminDashboard');
+})->name('adminDashboard');
 
-// Route::post('renseignement', [PostController::class, 'getData']);
+// Route::get('/users', function () {
+//     return view('users');
+// })->name('users');
+Route::get('/users', [HomeController::class, 'user'])->name('users');
+
+
+Route::get('/renseignements', [Controller::class, 'renseignement'])->name('renseignements');
+
+Route::get('/inscrits', [inscritsController::class, 'inscrit'])->name('inscrits');
+
 /*------------------------------------------
 --------------------------------------------
 All Normal Users Routes List
