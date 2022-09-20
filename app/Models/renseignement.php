@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class renseignement extends Model
 {
     use HasFactory;
+
+    
 }

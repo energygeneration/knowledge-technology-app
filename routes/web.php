@@ -1,8 +1,15 @@
 <?php
 
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\inscritsController;
+use App\Http\Controllers\Auth\AdminController;
+use App\Http\Controllers\NewsletterController;
+use App\Http\Controllers\InscriptionController;
 use App\Http\Controllers\renseignementController;
+use App\Http\Controllers\FormulaireInscriptionController;
 
 
 
@@ -38,9 +45,17 @@ Route::get('/layouts', function () {
     return view('layouts.contact');
 })->name('contact');
 
+// insertion contact data on database 
+Route::get('tousinscrits', [tousinscritsController::class, 'tousinscrits']);
 
 // insertion contact data on database 
 Route::post('renseignement', [renseignementController::class, 'renseignement']);
+
+// insertion newsletter data on database 
+Route::post('newsletter', [NewsletterController::class, 'newsletter']);
+
+// insertion fotmulaire data on database 
+Route::post('/FormulaireInscription', [FormulaireInscriptionController::class, 'FormulaireInscription']);
 
 // // contact route for validation
 Route::post('/layouts', function () {
@@ -52,8 +67,20 @@ Route::get('/formulaire', function () {
     return view('layouts.formulaire');
 })->name('formulaire');
 
+Route::get('/adminDashboard', function () {
+    return view('layouts.adminDashboard');
+})->name('adminDashboard');
 
-// Route::post('renseignement', [PostController::class, 'getData']);
+// Route::get('/users', function () {
+//     return view('users');
+// })->name('users');
+Route::get('/users', [HomeController::class, 'user'])->name('users');
+
+
+Route::get('/renseignements', [Controller::class, 'renseignement'])->name('renseignements');
+
+Route::get('/Inscriptions', [InscriptionController::class, 'Inscription'])->name('Inscriptions');
+
 /*------------------------------------------
 --------------------------------------------
 All Normal Users Routes List

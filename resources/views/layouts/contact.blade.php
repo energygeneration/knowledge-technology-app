@@ -13,16 +13,20 @@
 <div class="header">
     <!-- header-black -->
     <div class="header-black">
-        <a href="" class="mail-link">
-            <img src="./assets/images/nouvelle-enveloppe-de-courrier-electronique.png" class="enveloppe "
-                alt="enveloppe electronique">
-        </a>
-        <img src="./assets/images/whatsapp.png" class="enveloppe" alt="whatsapp">
-        <div class="">
-            <p class="header-black-contact">Contactez nous</p>
-        </div>
+            <a href="mailto:knowledgetchnology@gmail.com" class="mail-link">
+                <img src="./assets/images/nouvelle-enveloppe-de-courrier-electronique.png" class="enveloppe "
+                    alt="enveloppe electronique">
+            </a>
 
-    </div>
+            <a href="https://wa.me/0022891622497?text=Welcome%20to%20Knowledge%20Technology%20!">
+            <img src="./assets/images/whatsapp.png" class="enveloppe" alt="whatsapp">
+            </a>
+
+            <div class="">
+                <p class="header-black-contact">Contactez nous</p>
+            </div>
+
+        </div>
     <!-- end header-black -->
 
     <!-- navbar -->
@@ -64,7 +68,7 @@
         
     </div>
     <!-- accueil -->
-    <div class="accueil">
+    <div class="imag-invisible">
         <div class="text-accueil">
             <div class="text">
                 <p class="text-light text-center">CENTRE DE FORMATION QUI REPOND</p>
@@ -80,7 +84,7 @@
 
     <!-- formulaire-contact -->
     <div class="formulaire-contact container">
-        <h1 class="">Contact</h1>
+        <h1 class="mt-5">Contact</h1>
         <hr>
 
         <h3>
@@ -96,36 +100,38 @@
                     <li>{{$err}}</li>
                     @endforeach
                 @endif -->
+
+                {{$errors}}
                 <form action="renseignement" method="post">
                     {{ csrf_field()}}
 
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Nom :</label>
-                      <input type="text" class="form-control" name="nom" id="exampleInputEmail1" aria-describedby="emailHelp" >
+                      <input type="text" class="form-control" name="nom" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                       <span class="text-danger">@error('nom'){{$message}}@enderror</span>
                     </div>
 
                     <div class="mb-3">
                       <label for="exampleInputPassword1" class="form-label">Prénom :</label>
-                      <input type="text" class="form-control" name="prenom" id="exampleInputPassword1" >
+                      <input type="text" class="form-control" name="prenom" id="exampleInputPassword1" required>
                       <span class="text-danger">@error('prenom'){{$message}}@enderror</span>
                     </div>
 
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">E-mail :</label>
-                        <input type="email" class="form-control" name="email" id="exampleInputPassword1" >
+                        <input type="email" class="form-control" name="email" id="exampleInputPassword1" required>
                         <span class="text-danger">@error('email'){{$message}}@enderror</span>
                     </div>
 
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Télephone :</label>
-                        <input type="number" class="form-control" name="numeroTel" id="exampleInputPassword1" >
+                        <input type="number" class="form-control" name="numeroTel" id="exampleInputPassword1" required>
                         <span class="text-danger">@error('numeroTel'){{$message}}@enderror</span>
                     </div>
                     
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Votre message :</label>
-                        <textarea type="text" id="" class="form-control" name="contenu_message" cols=""  rows="8" ></textarea>
+                        <textarea type="text" id="" class="form-control" name="contenu_message" cols=""  rows="8" required></textarea>
                         <span class="text-danger">@error('contenu_message'){{$message}}@enderror</span>
                     </div>
                     
@@ -174,8 +180,8 @@
 
                     <form action="/newsletter" method="post">
                         {{ csrf_field() }}
-                        <input type="email" class="inputmail-buttont" name="email" placeholder="Votre adresse e-mail" required> <br class="go-in-line">
-                        <input type="checkbox" class="checkbox " name="checkbox" required> <span class="text-light"> J'accepte que knowledge tchnology m'envoie des mails</span> <br>
+                        <input type="email" class="inputmail-buttont" name="email" placeholder="Votre adresse e-mail"> <br class="go-in-line">
+                        <input type="checkbox" class="checkbox " name="checkbox"> <span class="text-light"> J'accepte que knowledge tchnology m'envoie des mails</span> <br>
                         <button type="submit" class="inputmail-buttone text-light">VALIDER</button>
                     </form>
              </div>
@@ -201,31 +207,30 @@
               </div>
 
               <div class="col-3">
-                  <p>Informations pratiques</p>
-                  <p>
-                      contacter nous : <br>
-                      24h/24 et 7j/7
-                      Tel: 91 62 24 97 / 99 40 93 20
-                  </p>
-              </div>
+                    <p>Informations pratiques</p>
+                    <p>
+                        Ecrivez nous : <br>
+                        knowledgetchnology@gmail.com <br>
+                        où dans le formulaire de contact
+                    </p>
+                </div>
 
-              <div class="col-3">
-                  <p>Informations pratiques</p>
-                  <p>
-                      contacter nous : <br>
-                      24h/24 et 7j/7
-                      Tel: 91 62 24 97 / 99 40 93 20
-                  </p>
-              </div>
+                <div class="col-3">
+                    <p>Informations pratiques</p>
+                    <p>
+                        Où nous trouver  : <br>
+                        Lomé-Togo;<br> Adidogomé; <br> Rue Mélonkou.
+                    </p>
+                </div>
 
-              <div class="col-3">
-                  <p>Informations pratiques</p>
-                  <p>
-                      contacter nous : <br>
-                      24h/24 et 7j/7
-                      Tel: 91 62 24 97 / 99 40 93 20
-                  </p>
-              </div>
+                <div class="col-3">
+                    <p>Informations pratiques</p>
+                    <p>
+                        contacter nous : <br>
+                        24h/24 et 7j/7 <br>
+                        Tel: 91 62 24 97 / 99 40 93 20
+                    </p>
+                </div>
 
           </div>
       </div>

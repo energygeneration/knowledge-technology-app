@@ -214,6 +214,9 @@ ul li a {
     background-color: #4EC26F;
 }
 
+.point{
+    display: none;
+}
 /* end-footer */
 @media all and (max-width: 1440px) {
    
@@ -302,6 +305,9 @@ ul li a {
        
         margin: 20px 90px;
     }
+    .text-temoignage{
+       display: none;
+    }
 }
 
 @media all and (max-width: 320px) {
@@ -319,6 +325,9 @@ ul li a {
 
     .text-accueil, .accueil {
         height: 21vh;
+    }
+    .carousel{
+        padding: 0 !important;
     }
 }
 

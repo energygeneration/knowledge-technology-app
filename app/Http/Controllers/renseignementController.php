@@ -16,6 +16,6 @@ class renseignementController extends Controller
         $renseignement->numeroTel=$req->numeroTel;
         $renseignement->contenu_message=$req->contenu_message;
         $renseignement->save();
-        return ('vvbvb');
+        return ('Votre message à été envoyer avec succès !');
     }
 }
