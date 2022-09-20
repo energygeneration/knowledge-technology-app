@@ -214,6 +214,9 @@ ul li a {
     background-color: #4EC26F;
 }
 
+.point{
+    display: none;
+}
 /* end-footer */
 @media all and (max-width: 1440px) {
    
@@ -301,6 +304,9 @@ ul li a {
     .newslet input, .inputmail-buttone {
        
         margin: 20px 90px;
+    }
+    .text-temoignage{
+       display: none;
     }
 }
 

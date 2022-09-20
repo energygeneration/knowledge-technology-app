@@ -154,17 +154,24 @@
         <div class="card">
             <div class="card m-5">
                 <div class="card-header">
-                    <h3 class="text-center">bbbbbbbbbbb</h3>
+                    <h2 class="text-center text-light">Témoignages</h2>
                 </div>
                 <div class="card-body">
-                    <p class="text-light fs-6">
-                        Lorem ipsum dolor sit amet. Et nobis galisum sed atque unde est nihil accusantium est assumenda
-                        fuga hic nostrum quas eum quas vitae et odit consequuntur? Id voluptas rerum et blanditiis sint
-                        ut delectus ducimus qui maxime aliquid ea nulla sequi 33 minima quibusdam? Ut nihil optio eum
-                        corporis enim qui alias illo qui reiciendis voluptas aut voluptatem debitis. Eum dolore amet
-                        autem numquam qui perspiciatis neque ea inventore unde sit odio omnis ut repellendus repellendus
-                        qui commodi nulla.
-                    </p>
+                    <div class="d-flex">
+                        <div class="">
+                            <h3 class="text-warning">Témoignage1</h3>
+                            <p class="text-light fs-4">
+                                La formation « devenir administrateur réseaux et systèmes » d’une durée <span class="point">...</span> <span class="text-temoignage">de quinze mois m’a permis d’acquérir beaucoup de notions de base sur le réseau, les systèmes et sa sécurité ansi qu'une bonne maitrise du calcul binaire, découpage des sous-réseaux, Windows 8/server 2012,
+                                La formation s’est bien déroulée et corronner le tout, j’ai obtenu deux certifications à savoir le CCNA et ITIL 2011.</span>
+                            </p>
+                        </div>
+                        <div class="">
+                            <h3 class="text-warning">Témoignage2</h3>
+                            <p class="text-light fs-4">
+                                A knowledge technology a mis tous les dispositifs necessaire pour <span class="point">...</span><span class="text-temoignage">la formation ont été mis à notre disposition. Ce qui nous a permis d'être performant dans les structures que nous servont aujourd'hui. </span>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
