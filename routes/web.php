@@ -1,10 +1,13 @@
 <?php
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\inscritsController;
 use App\Http\Controllers\Auth\AdminController;
 use App\Http\Controllers\NewsletterController;
+use App\Http\Controllers\InscriptionController;
 use App\Http\Controllers\renseignementController;
 use App\Http\Controllers\FormulaireInscriptionController;
 
@@ -76,7 +79,7 @@ Route::get('/users', [HomeController::class, 'user'])->name('users');
 
 Route::get('/renseignements', [Controller::class, 'renseignement'])->name('renseignements');
 
-Route::get('/inscrits', [inscritsController::class, 'inscrit'])->name('inscrits');
+Route::get('/Inscriptions', [InscriptionController::class, 'Inscription'])->name('Inscriptions');
 
 /*------------------------------------------
 --------------------------------------------

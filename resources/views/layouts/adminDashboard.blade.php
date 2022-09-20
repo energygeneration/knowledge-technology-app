@@ -105,7 +105,7 @@
             </a> 
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" href="{{route('inscrits')}}">
+            <a class="nav-link" href="{{route('Inscriptions')}}">
               <span class="menu-icon">
                 <i class="">Ins</i>
               </span>
