@@ -8,10 +8,10 @@ use App\Http\Controllers\InscriptionController;
 
 class InscriptionController extends Controller
 {
-        public function Inscription(){
+    public function Inscription(){
 
-            $Inscriptions = Inscription::all();
-                
-            return view('layouts.Inscriptions', compact('Inscription'));
-        }
+        $inscriptions = Inscription::all();
+            
+        return view('layouts.Inscriptions', compact('Inscription'));
+    }
  }
