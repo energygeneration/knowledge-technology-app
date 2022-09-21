@@ -124,7 +124,7 @@
                         <select class="form-select form-control" name="sexe" aria-label="Default select example" required>
                             <option selected></option>
                             <option value="FEMME">FEMME</option>
-                            <option value="FEMME">FEMME</option>
+                            <option value="HOMME">HOMME</option>
                           </select>
                     </div>
     

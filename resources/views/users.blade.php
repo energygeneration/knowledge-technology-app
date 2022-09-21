@@ -1,7 +1,7 @@
 @extends('layouts.adminDashboard')
 @section('content')
 <div class="bg-dark"  style="margin-top: 4%;">
-            <h3 class="text-center">ICI REPERTORIER TOUS LES INSCRITS</h3>
+            <h3 class="text-center">ICI REPERTORIER TOUS LES UTILISATEURS</h3>
             <table>
                     <tr class="bg-danger">
                         <th><h4 class="p-3">name</h4></th>
