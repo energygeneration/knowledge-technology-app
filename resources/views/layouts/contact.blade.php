@@ -94,14 +94,6 @@
        <div class="champ-formulaire d-flex">
             <div class="mt-4">
 
-                
-                <!-- @if($errors->any())
-                    @foreach($errors->all() as $err)
-                    <li>{{$err}}</li>
-                    @endforeach
-                @endif -->
-
-                {{$errors}}
                 <form action="renseignement" method="post">
                     {{ csrf_field()}}
 

@@ -16,17 +16,17 @@
                         <th><h4 class="p-3">Action</h4></th>
                     </tr>
 
-                    @foreach($Inscriptions as $Inscription)
+                    @foreach($nscriptions as $nscription)
                     <tr class="bg-info">
-                        <th><h4 class="p-3">{{($Inscription->nom)}}</h4></th>
-                        <th><h4 class="p-3">{{($Inscription->prenom)}}</h4></th>
-                        <th><h4 class="p-3">{{($Inscription->date_Naissance)}}</th></th>
-                        <th><h4 class="p-3">{{($Inscription->prefecture)}}</th></th>
-                        <th><h4 class="p-3">{{($Inscription->sexe)}}</th></th>
-                        <th><h4 class="p-3">{{($Inscription->numeroTel)}}</th></th>
-                        <th><h4 class="p-3">{{($Inscription->email)}}</th></th>
-                        <th><h4 class="p-3">{{($Inscription->fichiers)}}</th></th>
-                        <th><h4 class="p-3">{{($Inscription->filiere)}}</th></th>
+                        <th><h4 class="p-3">{{($inscription->nom)}}</h4></th>
+                        <th><h4 class="p-3">{{($inscription->prenom)}}</h4></th>
+                        <th><h4 class="p-3">{{($inscription->date_Naissance)}}</th></th>
+                        <th><h4 class="p-3">{{($inscription->prefecture)}}</th></th>
+                        <th><h4 class="p-3">{{($inscription->sexe)}}</th></th>
+                        <th><h4 class="p-3">{{($inscription->numeroTel)}}</th></th>
+                        <th><h4 class="p-3">{{($inscription->email)}}</th></th>
+                        <th><h4 class="p-3">{{($inscription->fichiers)}}</th></th>
+                        <th><h4 class="p-3">{{($inscription->filiere)}}</th></th>
                         <th><h4 class="p-3"> </th></th>
                     </tr>
                     @endforeach

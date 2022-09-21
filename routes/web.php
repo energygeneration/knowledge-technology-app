@@ -29,6 +29,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/home', [HomeController::class, 'index'])->name('home');
 // acceuil route
 
 Route::get('/', function () {
@@ -49,7 +51,7 @@ Route::get('/layouts', function () {
 Route::get('tousinscrits', [tousinscritsController::class, 'tousinscrits']);
 
 // insertion contact data on database 
-Route::post('renseignement', [renseignementController::class, 'renseignement']);
+Route::post('renseignement', [renseignementController::class, 'renseignements'])->name('renseignement');
 
 // insertion newsletter data on database 
 Route::post('newsletter', [NewsletterController::class, 'newsletter']);
@@ -76,8 +78,8 @@ Route::get('/adminDashboard', function () {
 // })->name('users');
 Route::get('/users', [HomeController::class, 'user'])->name('users');
 
-
-Route::get('/renseignements', [Controller::class, 'renseignement'])->name('renseignements');
+// display table renseignement
+Route::get('/renseignement', [Controller::class, 'renseignement'])->name('renseignements');
 
 Route::get('/Inscriptions', [InscriptionController::class, 'Inscription'])->name('Inscriptions');
 

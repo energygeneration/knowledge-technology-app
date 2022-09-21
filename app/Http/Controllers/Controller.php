@@ -16,6 +16,8 @@ class Controller extends BaseController
 
         $renseignements = renseignement::all();
         
-        return view('layouts.renseignements', compact('renseignements'));
+        return view('renseignement', compact('renseignements'));
     }
+
+    
 }
