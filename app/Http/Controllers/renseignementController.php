@@ -7,15 +7,15 @@ use App\Models\renseignement;
 
 class renseignementController extends Controller
 {
-    //
-    function renseignement(Request $req){
-        $renseignement = new renseignement;
-        $renseignement->nom=$req->nom;
-        $renseignement->prenom=$req->prenom;
-        $renseignement->email=$req->email;
-        $renseignement->numeroTel=$req->numeroTel;
-        $renseignement->contenu_message=$req->contenu_message;
-        $renseignement->save();
-        return ('vvbvb');
+    
+    function renseignements(Request $req){
+        $customer = new Renseignement;
+        $customer->nom=$req->nom;
+        $customer->prenom=$req->prenom;
+        $customer->email=$req->email;
+        $customer->numeroTel=$req->numeroTel;
+        $customer->contenu_message=$req->contenu_message;
+        $customer->save();
+        return ('Votre message à été envoyer avec succès !');
     }
 }

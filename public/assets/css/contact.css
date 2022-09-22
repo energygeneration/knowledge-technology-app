@@ -102,7 +102,12 @@ ul li a {
 
 @media all and (max-width: 768px) {
     
-    
+    .champ-formulaire{
+        flex-wrap: wrap;
+    }
+    .collapse{
+        background-color: #1113F9;
+    }
     .form-control {
         width: 300px;
     }

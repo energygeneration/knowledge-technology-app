@@ -56,7 +56,7 @@
 
                         <li class="nav-item ">
                                 <a class="nav-link text-light mx-5" href="{{ route('login') }}">{{ __('Login') }}</a>
-                            </li>
+                        </li>
                       
                         <li class="nav-item">
                             <a class="nav-link  active text-light mx-5" href="{{ route('contact') }}">Contact</a>
@@ -66,17 +66,7 @@
                     </div>
                 </div>
             </nav>
-            <!-- <div class="block-image-accueil">
-                <img src="/assets/images/2-blackstudent.jpeg" class="imag-invisible img-fluid" alt="Etudiants">
-                <div class="text-accueil">
-                    <div class="text">
-                        <p class="text-light text-center">CENTRE DE FORMATION QUI REPOND</p>
-                        <p class="text-light text-center">CENTRE DE FORMATION QUI REPOND</p>
-
-                        <p class="text-light text-center"> </p>
-                    </div>
-                </div>
-            </div> -->
+        </div> 
         </div>
         <!-- accueil -->
         <div class="accueil">
@@ -103,10 +93,7 @@
                 <div class="propos-de-nous">
                     <h3 class="p-3">QUELQUES MOTS SUR NOUS</h3>
                     <p class="p-2">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                        beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                        odit aut fugit, sed quia consequuntur magni dolores eos qui
+                        KNOWLEDGE TECHNOLOGY est centre de formation professionnelle, qui offre des formations dans les métiers prévoilleurs d'emplois.
                     </p>
                 </div>
 
@@ -142,19 +129,22 @@
             matériel adequat pour la reussite de la formation ........”</p>
     </div>
 
-    <div class="">
-        <div class="images-disposiifs container">
-            <div class="">
-                <img src="./assets/images/Aspirateur-souffleur.jpeg" class="aspirateur" width="450" height="200" alt="">
-            </div>
-            <div class=" p-2">
-                <img src="./assets/images/pince-sertire.jpeg" class="aspirateur" width="450" height="200" alt="">
-            </div>
-            <div class="p-2">
-                <img src="./assets/images/caisse-outils.png" class="aspirateur" width="450" height="200" alt="">
-            </div>
+    <div id="carouselExampleControls" class="carousel slide"  data-bs-ride="carousel" style="padding:3% 20%;">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/images/Group 23.png" class="d-block "   height="200" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/Group 24.png" class="d-block "  height="200" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/Group 25.png" class="d-block "  height="200" alt="...">
+          </div>
         </div>
-    </div>
+        
+      </div>
+
+    
 
     <!-- end-materiel -->
 
@@ -164,17 +154,24 @@
         <div class="card">
             <div class="card m-5">
                 <div class="card-header">
-                    <h3>bbbbbbbbbbb</h3>
+                    <h2 class="text-center text-light">Témoignages</h2>
                 </div>
                 <div class="card-body">
-                    <p class="text-light fs-6">
-                        Lorem ipsum dolor sit amet. Et nobis galisum sed atque unde est nihil accusantium est assumenda
-                        fuga hic nostrum quas eum quas vitae et odit consequuntur? Id voluptas rerum et blanditiis sint
-                        ut delectus ducimus qui maxime aliquid ea nulla sequi 33 minima quibusdam? Ut nihil optio eum
-                        corporis enim qui alias illo qui reiciendis voluptas aut voluptatem debitis. Eum dolore amet
-                        autem numquam qui perspiciatis neque ea inventore unde sit odio omnis ut repellendus repellendus
-                        qui commodi nulla.
-                    </p>
+                    <div class="d-flex">
+                        <div class="">
+                            <h3 class="text-warning">Témoignage1</h3>
+                            <p class="text-light fs-4">
+                                La formation « devenir administrateur réseaux et systèmes » d’une durée <span class="point">...</span> <span class="text-temoignage">de quinze mois m’a permis d’acquérir beaucoup de notions de base sur le réseau, les systèmes et sa sécurité ansi qu'une bonne maitrise du calcul binaire, découpage des sous-réseaux, Windows 8/server 2012,
+                                La formation s’est bien déroulée et corronner le tout, j’ai obtenu deux certifications à savoir le CCNA et ITIL 2011.</span>
+                            </p>
+                        </div>
+                        <div class="">
+                            <h3 class="text-warning">Témoignage2</h3>
+                            <p class="text-light fs-4">
+                                A knowledge technology a mis tous les dispositifs necessaire pour <span class="point">...</span><span class="text-temoignage">la formation ont été mis à notre disposition. Ce qui nous a permis d'être performant dans les structures que nous servont aujourd'hui. </span>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -203,7 +200,7 @@
                     <form action="/newsletter" method="post">
                         {{ csrf_field() }}
                         <input type="email" class="inputmail-buttont" name="email" placeholder="Votre adresse e-mail" required> <br class="go-in-line">
-                        <input type="checkbox" class="checkbox " name="checkbox" required> <span class="text-light"> J'accepte que knowledge tchnology m'envoie des mails</span> <br>
+                        <input type="checkbox" class="checkbox " name="checkbox"> <span class="text-light" required> J'accepte que knowledge tchnology m'envoie des mails</span> <br>
                         <button type="submit" class="inputmail-buttone text-light">VALIDER</button>
                     </form>
                </div>
@@ -231,9 +228,17 @@
                 <div class="col-3">
                     <p>Informations pratiques</p>
                     <p>
-                        contacter nous : <br>
-                        24h/24 et 7j/7
-                        Tel: 91 62 24 97 / 99 40 93 20
+                        Ecrivez nous : <br>
+                        knowledgetchnology@gmail.com <br>
+                        où dans le formulaire de contact
+                    </p>
+                </div>
+
+                <div class="col-3">
+                    <p>Informations pratiques</p>
+                    <p>
+                        Où nous trouver  : <br>
+                        Lomé-Togo;<br> Adidogomé; <br> Rue Mélonkou.
                     </p>
                 </div>
 
@@ -241,16 +246,7 @@
                     <p>Informations pratiques</p>
                     <p>
                         contacter nous : <br>
-                        24h/24 et 7j/7
-                        Tel: 91 62 24 97 / 99 40 93 20
-                    </p>
-                </div>
-
-                <div class="col-3">
-                    <p>Informations pratiques</p>
-                    <p>
-                        contacter nous : <br>
-                        24h/24 et 7j/7
+                        24h/24 et 7j/7 <br>
                         Tel: 91 62 24 97 / 99 40 93 20
                     </p>
                 </div>
@@ -260,7 +256,7 @@
     </div>
 
     <div class="copyrigth pt-3">
-        <p class="text-light text-center" style="height: 65px;">copyrigth</p>
+        <p class="text-light text-center" style="height: 65px;">Réaliser par SEWENDA Tchaou</p>
     </div>
     <!-- end-footer -->
 

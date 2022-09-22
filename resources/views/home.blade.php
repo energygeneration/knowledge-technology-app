@@ -20,6 +20,9 @@
             <div class="my-5">
                 <a href="{{ route('formulaire') }}" class="text-light">Formulaire d'inscription</a>
             </div>
+
+            <a href="{{ route('adminDashboard') }}" class="text-light">Voir le Tableau de bord</a>
+
         </div>
     </div>
     

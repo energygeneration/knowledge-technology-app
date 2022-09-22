@@ -16,11 +16,15 @@
  <div class="header">
         <!-- header-black -->
         <div class="header-black">
-            <a href="" class="mail-link">
+            <a href="mailto:knowledgetchnology@gmail.com" class="mail-link">
                 <img src="./assets/images/nouvelle-enveloppe-de-courrier-electronique.png" class="enveloppe "
                     alt="enveloppe electronique">
             </a>
+
+            <a href="https://wa.me/0022891622497?text=Welcome%20to%20Knowledge%20Technology%20!">
             <img src="./assets/images/whatsapp.png" class="enveloppe" alt="whatsapp">
+            </a>
+
             <div class="">
                 <p class="header-black-contact">Contactez nous</p>
             </div>
@@ -91,7 +95,7 @@
     <h5 class="info text-center text-#0658D3">Informations personnelle</h5>
         <div>
            
-            <form action="/store" method="post" class="form-formulaire" enctype="multipart/form-data">
+            <form action="/FormulaireInscription" method="post" class="form-formulaire" enctype="multipart/form-data">
                 {{ csrf_field()}}
                 <div class="container">
                     <div class="mb-3">
@@ -120,7 +124,7 @@
                         <select class="form-select form-control" name="sexe" aria-label="Default select example" required>
                             <option selected></option>
                             <option value="FEMME">FEMME</option>
-                            <option value="FEMME">FEMME</option>
+                            <option value="HOMME">HOMME</option>
                           </select>
                     </div>
     
@@ -186,7 +190,7 @@
                         <form action="/newsletter" method="post">
                         {{ csrf_field() }}
                         <input type="email" class="inputmail-buttont" name="email" placeholder="Votre adresse e-mail" required> <br class="go-in-line">
-                        <input type="checkbox" class="checkbox " name="checkbox" required> <span class="text-light"> J'accepte que knowledge tchnology m'envoie des mails</span> <br>
+                        <input type="checkbox" class="checkbox " name="checkbox"> <span class="text-light" required> J'accepte que knowledge tchnology m'envoie des mails</span> <br>
                         <button type="submit" class="inputmail-buttone text-light">VALIDER</button>
                     </form>
                    </div>
@@ -212,32 +216,30 @@
                     </div>
       
                     <div class="col-3">
-                        <p>Informations pratiques</p>
-                        <p>
-                            contacter nous : <br>
-                            24h/24 et 7j/7
-                            Tel: 91 62 24 97 / 99 40 93 20
-                        </p>
-                    </div>
-      
-                    <div class="col-3">
-                        <p>Informations pratiques</p>
-                        <p>
-                            contacter nous : <br>
-                            24h/24 et 7j/7
-                            Tel: 91 62 24 97 / 99 40 93 20
-                        </p>
-                    </div>
-      
-                    <div class="col-3">
-                        <p>Informations pratiques</p>
-                        <p>
-                            contacter nous : <br>
-                            24h/24 et 7j/7
-                            Tel: 91 62 24 97 / 99 40 93 20
-                        </p>
-                    </div>
-      
+                    <p>Informations pratiques</p>
+                    <p>
+                        Ecrivez nous : <br>
+                        knowledgetchnology@gmail.com <br>
+                        où dans le formulaire de contact
+                    </p>
+                </div>
+
+                <div class="col-3">
+                    <p>Informations pratiques</p>
+                    <p>
+                        Où nous trouver  : <br>
+                        Lomé-Togo;<br> Adidogomé; <br> Rue Mélonkou.
+                    </p>
+                </div>
+
+                <div class="col-3">
+                    <p>Informations pratiques</p>
+                    <p>
+                        contacter nous : <br>
+                        24h/24 et 7j/7 <br>
+                        Tel: 91 62 24 97 / 99 40 93 20
+                    </p>
+                </div>
                 </div>
             </div>
         </div>
