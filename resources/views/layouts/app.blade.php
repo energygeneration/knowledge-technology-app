@@ -75,6 +75,10 @@
         <main class="py-4">
             @yield('content')
         </main>
+        <span class="py-4">
+            @yield('admin')
+        </span>
+       
     </div>
    
 </body>

@@ -23,6 +23,7 @@
     <link rel="shortcut icon" href="Admin/assets/images/favicon.png" />
   </head>
   <body>
+
     <div class="container-scroller">
       <div class="row p-0 m-0 proBanner" id="proBanner">
         <div class="col-md-12 p-0 m-0">
@@ -40,7 +41,7 @@
       </div>
       <!-- partial:partials/_sidebar.html -->
       <div>
-        
+
       </div>
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">

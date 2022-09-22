@@ -105,12 +105,7 @@
 </div>
 <!-- end-header -->
 
-<!-- knowledge technology-lien de telechargement du prospectus -->
-
-
-
-<!-- end-knowledge technology-lien de telechargement du prospectus -->
-
+<h1 class="text-center m-5">CHOISSEZ À PRESENT VOTRE FILIÈRE</h1>
 
   <!-- formation -->
   <div class="formation">
@@ -236,7 +231,12 @@
 
   <!-- image-etudiant-travaillant -->
   <div class="image-etudiant-travaillant">
-      <p class=" text-etudiant-travaillant text-light text-center">gggggggggggggggggg</p>
+      <p class="note-information text-etudiant-travaillant text-light text-center fs-1">
+        Vous pouvez vous former dans l'une dès filière ci-dessus après obtention du votre BEPC ou Baccaloreat deuxième partie. <br><br>
+        <span style="color: red;">Important:</span>Toute personne désireuse de s'inscrire en ligne doit obligatoirement créer son compte sur notre plateforme!
+        En cliquant sur Login puis sur Register vous aurez doit au <span class="green-text text-success">Formulaire d'inscription</span>
+      </p>
+     
     </div>
   </div>
 
@@ -321,7 +321,7 @@
 </div>
 
 <div class="copyrigth pt-3">
-    <p class="text-light text-center" style="height: 65px;">copyrigth</p>
+    <p class="text-light text-center" style="height: 65px;">copyright knowledgetchnology.com Août 2022</p>
 </div>
 <!-- end-footer -->
 

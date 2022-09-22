@@ -256,7 +256,7 @@
     </div>
 
     <div class="copyrigth pt-3">
-        <p class="text-light text-center" style="height: 65px;">Réaliser par SEWENDA Tchaou</p>
+        <p class="text-light text-center" style="height: 65px;">Copyright knowledgetchnology.com Août 2022</p>
     </div>
     <!-- end-footer -->
 
