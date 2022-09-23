@@ -55,7 +55,7 @@
                         </li>
 
                         <li class="nav-item ">
-                                <a class="nav-link text-light mx-5" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <a class="nav-link text-light mx-5" href="{{ route('login') }}">{{ __('Inscrivez-Vous') }}</a>
                         </li>
                       
                         <li class="nav-item">
@@ -132,13 +132,13 @@
     <div id="carouselExampleControls" class="carousel slide"  data-bs-ride="carousel" style="padding:3% 20%;">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./assets/images/Group 23.png" class="d-block "   height="200" alt="...">
+            <img src="./assets/images/Group 23.png" class="img-corousel d-block "   height="200" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./assets/images/Group 24.png" class="d-block "  height="200" alt="...">
+            <img src="./assets/images/Group 24.png" class="img-corousel d-block "  height="200" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./assets/images/Group 25.png" class="d-block "  height="200" alt="...">
+            <img src="./assets/images/Group 25.png" class="img-corousel d-block "  height="200" alt="...">
           </div>
         </div>
         
@@ -150,24 +150,23 @@
 
     <!-- image-etudiant -->
     <div class="image-etudiant">
-        <!-- <img src="./assets/images/image-etudiant.webp" class="image-etudiant" alt=""> -->
         <div class="card">
             <div class="card m-5">
                 <div class="card-header">
                     <h2 class="text-center text-light">Témoignages</h2>
                 </div>
-                <div class="card-body">
-                    <div class="d-flex">
+                <div class="card-temoin">
+                    <div class="temoin d-flex">
                         <div class="">
-                            <h3 class="text-warning">Témoignage1</h3>
-                            <p class="text-light fs-4">
+                            <h3 class="text-warning m-4">Témoignage1</h3>
+                            <p class="text-light fs-4 px-4">
                                 La formation « devenir administrateur réseaux et systèmes » d’une durée <span class="point">...</span> <span class="text-temoignage">de quinze mois m’a permis d’acquérir beaucoup de notions de base sur le réseau, les systèmes et sa sécurité ansi qu'une bonne maitrise du calcul binaire, découpage des sous-réseaux, Windows 8/server 2012,
                                 La formation s’est bien déroulée et corronner le tout, j’ai obtenu deux certifications à savoir le CCNA et ITIL 2011.</span>
                             </p>
                         </div>
                         <div class="">
-                            <h3 class="text-warning">Témoignage2</h3>
-                            <p class="text-light fs-4">
+                            <h3 class="text-warning m-5">Témoignage2</h3>
+                            <p class="text-light fs-4 px-4">
                                 A knowledge technology a mis tous les dispositifs necessaire pour <span class="point">...</span><span class="text-temoignage">la formation ont été mis à notre disposition. Ce qui nous a permis d'être performant dans les structures que nous servont aujourd'hui. </span>
                             </p>
                         </div>
@@ -189,18 +188,17 @@
         <div class="col-12 col-md-4 p-0">
 
             <div class="newslet w-100">
-                <!-- <img src="./assets/images/newsletter.png" class="w-100" height="450" alt=""> -->
                <div class="newsletter-text p-3">
                     <h4 class=" text-center pt-3 text-light"> <span>NEW</span><span
                         class="undreline">SLET</span>TER</h4>
 
-                    <p class="text-light">
+                    <p class="Acceptation text-light fs-6">
                     Pour vous ,entreprises professionnelles Inscrivez vous afin de recevoir les informations par rapport
                     à nos offreset promos speciales</p>
                     <form action="/newsletter" method="post">
                         {{ csrf_field() }}
                         <input type="email" class="inputmail-buttont" name="email" placeholder="Votre adresse e-mail" required> <br class="go-in-line">
-                        <input type="checkbox" class="checkbox " name="checkbox"> <span class="text-light" required> J'accepte que knowledge tchnology m'envoie des mails</span> <br>
+                        <input type="checkbox" class="checkbox " name="checkbox"> <span class="Acceptation text-light" required> J'accepte que knowledge tchnology m'envoie des mails</span> <br>
                         <button type="submit" class="inputmail-buttone text-light">VALIDER</button>
                     </form>
                </div>
