@@ -206,6 +206,31 @@ ul li a {
 
 }
 
+/*  */
+@media all and (min-width: 1025px) and (max-width: 1280px){
+    
+
+    .newslet input, .inputmail-buttone{
+       
+       width: 281px;
+    }
+ }
+
+@media all and (min-width: 769px) and (max-width: 952px){
+   
+
+    .newslet input, .inputmail-buttone{
+       
+       width: 211px;
+    }
+ }
+@media all and (min-width: 1441px) and (max-width: 1894px){
+    .inputmail-buttone, .inputmail-buttont {
+        width: 417px;
+    }
+ }
+ /*  */
+
 @media all and (max-width: 425px) {
    
     .go-in-line {
